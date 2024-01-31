@@ -1,0 +1,65 @@
+.tutorial {
+    padding: 20px;
+
+}
+
+.container {
+    display: flex;
+    border: 1px solid forestgreen;
+    border-bottom: 3px solid forestgreen;
+    margin-top: 40px;
+}
+
+.left {
+    margin-left: 0px;
+}
+
+.title {
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    border-bottom: 3px solid forestgreen;
+    text-align: center;
+    margin-left: 400px;
+}
+
+hr {
+    color: forestgreen;
+    background-color: forestgreen;
+    height: 3px;
+    align-self: start;
+}
+
+.info {
+    margin-top: 50px;
+    margin-left: 20px;
+    line-height: 50px;
+    width: 500px;
+}
+
+.small{
+    width: 250px;
+    margin-right: 40px;
+}
+
+.desc {
+    line-height: 40px;
+}
+
+.readmore {
+    background-color: white;
+    color: forestgreen;
+    margin-right: 20px;
+    padding: 15px;
+    margin-top: 5px;
+    border: 2px solid forestgreen;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.readmore:hover {
+    color: whitesmoke;
+    background-color: forestgreen;
+    border: 2px solid forestgreen;
+    transition: 0.3s;
+}

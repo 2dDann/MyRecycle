@@ -1,0 +1,56 @@
+.resultbox{
+    overflow-y: auto;
+    background-color: white;
+    border: 3px forestgreen solid;
+    padding: 10px;
+    width: 400px;
+    height: 600px;
+}
+.title {
+    background-color: white;
+    width: auto;
+    padding: 20px;
+    border-bottom: 3px solid forestgreen;
+    text-align: center;
+    margin-left: 0px;
+}
+.map{
+    margin-left: 100px;
+}
+.button{
+    background-color: white;
+    color: forestgreen;
+    font-weight: none;
+    padding: 15px;
+    border: 2px solid forestgreen;
+    font-size: 25px;
+    text-decoration: none;
+    width: 350px;
+    margin-bottom: 30px;
+}
+.submit{
+    margin-top: 30px; 
+}
+.button:hover {
+    color: whitesmoke;
+    background-color: forestgreen;
+    border: 2px solid forestgreen;
+    transition: 0.3s;
+}
+
+/* Search box */
+
+.search {
+    border: 3px solid forestgreen;
+    background-color: rgb(198, 221, 198);
+    display: block;
+    width: auto;
+    text-align: center;
+}
+
+input {
+    padding: 15px;
+    width: 1000px;
+    font-size: 25px;
+    margin-top: 30px;
+}
